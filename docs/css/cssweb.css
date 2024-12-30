@@ -235,60 +235,65 @@ footer{
     color: #333;
 }
 input[type="text"], input[type="email"], input[type="tel"] {
-    width: 100%; /* Ocupa todo el ancho disponible */
-    max-width: 400px; /* Limita el ancho máximo */
+    width: 100%; 
+    max-width: 400px; 
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc; /* Color del borde */
-    border-radius: 5px; /* Bordes redondeados */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     font-size: 16px;
-    transition: all 0.3s ease; /* Transición suave */
+    transition: all 0.3s ease; 
 }
 input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
-    border-color: #0056b3; /* Cambia el color del borde al hacer clic */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
-    outline: none; /* Elimina el borde azul predeterminado */
+    border-color: #0056b3; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    outline: none; 
 }    
 form {
     max-width: 500px;
-    margin: 0 auto; /* Centra el formulario horizontalmente */
-    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 0 auto; 
+    text-align: left; 
 }
 label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold; /* Resalta las etiquetas */
+    font-weight: bold; 
     color: #333;
 }
 form {
-    background-color: #f9f9f9; /* Fondo claro */
+    background-color: #f9f9f9; 
     padding: 30px;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 ul {
-    list-style: none; /* Elimina viñetas básicas */
+    list-style: none; 
     padding: 0;
     margin-top: 15px;
 }
 ul li {
     position: relative;
-    margin-bottom: 10px; /* Espaciado entre líneas */
-    padding-left: 30px; /* Deja espacio para el ícono */
+    margin-bottom: 10px; 
+    padding-left: 30px; 
     font-size: 16px;
     color: #555;
 }
 ul li::before {
-    content: "•"; /* Puedes usar un ícono aquí con Font Awesome */
+    content: "•"; 
     position: absolute;
     left: 0;
     font-size: 20px;
-    color: #0056b3; /* Azul para modernidad */
+    color: #0056b3; 
 }
 img {
     display: block;
-    max-width: 100%; /* Escala en pantallas pequeñas */
-    margin: 20px auto; /* Centrado */
-    border-radius: 10px; /* Bordes redondeados */
+    max-width: 100%; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+}
+.rrss{
+    display: flex;
+    width: 50px;
+    height: auto;
 }
